@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Agents for Privacy Management | Paper Companion</title>
+    <meta
+      name="description"
+      content="Interactive companion page for arXiv:2602.05016 with quick digest cards and scrollable deep-dive sections."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Paper Companion</p>
+        <h1>AI Agents for Privacy Management</h1>
+        <p class="subtitle">
+          A guided page for <a href="https://arxiv.org/pdf/2602.05016" target="_blank" rel="noopener noreferrer">arXiv:2602.05016</a>
+          with a <strong>1-minute digest</strong> and a <strong>scroll-to-unfold deep dive</strong>.
+        </p>
+
+        <div class="hero-meta">
+          <div>
+            <p class="meta-label">Paper</p>
+            <p class="meta-value">arXiv:2602.05016</p>
+          </div>
+          <div>
+            <p class="meta-label">Focus</p>
+            <p class="meta-value">AI agents × privacy decisions</p>
+          </div>
+          <div>
+            <a class="paper-link" href="https://arxiv.org/pdf/2602.05016" target="_blank" rel="noopener noreferrer"
+              >Open full paper</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container quick-digest" aria-labelledby="digest-heading">
+        <div class="digest-intro">
+          <h2 id="digest-heading">1-minute quick digest (click to jump)</h2>
+          <p>
+            Keep the block-by-block overview, then jump directly to detailed sections below.
+          </p>
+        </div>
+
+        <nav class="digest-grid" aria-label="Table of contents">
+          <a class="digest-card" href="#details-for-whom">
+            <span class="digest-num">01</span>
+            <h3>Who is this for?</h3>
+            <p>Researchers, builders, policy teams, and security practitioners.</p>
+          </a>
+          <a class="digest-card" href="#details-why-agents">
+            <span class="digest-num">02</span>
+            <h3>Why AI agents for privacy?</h3>
+            <p>Reduce friction in complex, repeated privacy decisions.</p>
+          </a>
+          <a class="digest-card" href="#details-excitement">
+            <span class="digest-num">03</span>
+            <h3>What excites users?</h3>
+            <p>Less effort, more control, and personalized support.</p>
+          </a>
+          <a class="digest-card" href="#details-alerts">
+            <span class="digest-num">04</span>
+            <h3>What alerts matter?</h3>
+            <p>Over-trust, data handling risks, and weak explainability.</p>
+          </a>
+          <a class="digest-card" href="#details-challenges">
+            <span class="digest-num">05</span>
+            <h3>What challenges unfold?</h3>
+            <p>Governance, interoperability, and long-term alignment.</p>
+          </a>
+        </nav>
+      </section>
+
+      <section class="container long-form" aria-label="Detailed content">
+        <article class="detail-block reveal" id="details-for-whom">
+          <h2>1) Who this paper is for — and why it is worth reading</h2>
+          <p>
+            This paper speaks to multiple audiences: privacy and HCI researchers, product managers,
+            AI engineers, compliance teams, and policymakers. It is especially useful for anyone
+            trying to convert privacy from a one-time consent click into a continuous, user-centered
+            decision process.
+          </p>
+          <ul>
+            <li><strong>For researchers:</strong> it frames open questions around trust, delegation, and transparency.</li>
+            <li><strong>For builders:</strong> it highlights where agent support can improve real user journeys.</li>
+            <li><strong>For governance teams:</strong> it clarifies where safeguards and accountability are necessary.</li>
+          </ul>
+        </article>
+
+        <article class="detail-block reveal" id="details-why-agents">
+          <h2>2) Why we use AI agents for privacy management</h2>
+          <p>
+            Privacy management is cognitively expensive. People make many small, context-dependent
+            decisions across apps and services, and static settings rarely keep up. AI agents can
+            help by monitoring context, translating preferences into actions, and assisting when
+            trade-offs are unclear.
+          </p>
+          <div class="detail-columns">
+            <div>
+              <h3>Current pain points</h3>
+              <ul>
+                <li>Too many prompts and settings.</li>
+                <li>Policies are long and hard to interpret.</li>
+                <li>User intent changes across situations.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Agent advantage</h3>
+              <ul>
+                <li>Automates repetitive privacy choices.</li>
+                <li>Provides contextual recommendation before exposure.</li>
+                <li>Explains likely impact in plain language.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="detail-block reveal" id="details-excitement">
+          <h2>3) Why users are excited</h2>
+          <p>
+            Users often feel they are always behind on privacy. The promise of agentic support is a
+            practical shift from “configure everything yourself” to “get intelligent help while still
+            staying in control.”
+          </p>
+          <ul>
+            <li><strong>Lower effort:</strong> fewer repetitive choices.</li>
+            <li><strong>Higher confidence:</strong> users get reminders and explanations at the right moment.</li>
+            <li><strong>Better personalization:</strong> recommendations adapt to individual comfort levels.</li>
+          </ul>
+          <p class="callout">
+            Design goal: keep users in the loop, not out of the loop.
+          </p>
+        </article>
+
+        <article class="detail-block reveal" id="details-alerts">
+          <h2>4) Alerts we need to be aware of</h2>
+          <p>
+            Privacy agents can fail in quiet but serious ways. If users over-trust these systems,
+            misaligned recommendations may silently normalize risky behavior.
+          </p>
+          <ul>
+            <li><strong>Over-reliance:</strong> user autonomy may shrink if recommendations are blindly accepted.</li>
+            <li><strong>Sensitive data concentration:</strong> agents can become high-value privacy targets.</li>
+            <li><strong>Explainability gaps:</strong> opaque decisions make user recourse and auditing harder.</li>
+            <li><strong>Goal misalignment:</strong> platform incentives may conflict with user privacy intent.</li>
+          </ul>
+        </article>
+
+        <article class="detail-block reveal" id="details-challenges">
+          <h2>5) More privacy challenges that unfold next</h2>
+          <p>
+            Beyond current settings and consent models, privacy agents introduce system-level
+            questions. The next phase is less about UI alone and more about governance, standards,
+            and longitudinal trust.
+          </p>
+          <ul>
+            <li>How to certify that agent actions remain aligned over time.</li>
+            <li>How to make preferences portable across products and ecosystems.</li>
+            <li>How to support meaningful appeals when agent choices are disputed.</li>
+            <li>How to define shared benchmarks for safety and transparency.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
+
+    <footer class="container footer">
+      <p>
+        Companion page for
+        <a href="https://arxiv.org/pdf/2602.05016" target="_blank" rel="noopener noreferrer">arXiv:2602.05016</a>
+        · built for readable overview + detailed scroll experience.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
